@@ -1,0 +1,63 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+/*PARALLAX START*/
+
+#parallax_1 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.pd-parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:300px;
+    margin: 0;
+    padding: 0;
+}
+
+/*RAPALLAX END*/
+
+
+section.experince {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+section.experince h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+div.col-12 {
+    margin-top: 90px;
+}
+
+div.top-36 {
+    padding-top: 36px;
+}
+
+p.text-extra-small {
+    color: #9b9b9b;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h4.offset-top {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
