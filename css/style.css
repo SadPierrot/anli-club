@@ -4,25 +4,14 @@ body {
 
 /*PARALLAX START*/
 
-#parallax_1 {
+#parallax_2 {
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
-    height:1000px;
-    margin: 0;
-    padding: 0;
-}
-
-.pd-parallax {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display:block;
+    width: 100%;
     height:300px;
     margin: 0;
     padding: 0;
@@ -39,7 +28,7 @@ section.experince {
 
 section.experince h1 {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 div.col-12 {
@@ -61,3 +50,43 @@ h4.offset-top {
     font-weight: 700;
 }
 
+.tab-98 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1.text-danger {
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+img.rounded-circle {
+    width: 100px;
+    height: 100px;
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.person {
+    margin-top: 50px;
+}
+
+.person-top {
+    margin-bottom: 0px;
+}
+
+p.text-danger {
+    font-size: 14px;
+}
+
+.person-text {
+    font-weight: 100;
+}
