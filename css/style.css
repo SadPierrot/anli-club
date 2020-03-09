@@ -118,3 +118,16 @@ p.text-danger {
 #button-reg {
     width: 200px;
 }
+
+.container-bg {
+    background: #111;
+    padding-top: 50px;
+}
+
+.footer-add-left {
+    text-align: left;
+}
+
+.footer-add-right {
+    text-align: right;
+}
