@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../css/pay.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-image">
+                    <img class="booking-img" src="../img /form-img.jpg" alt="Booking Image">
+                </div>
+                <div class="booking-form">
+                    <form id="booking-form">
+                        <h2>Booking a place for your evening!</h2>
+                        <div class="form-group form-input">
+                            <input type="text" name="name" id="name" value="" required/>
+                            <label for="name" class="form-label">Your name</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="number" name="phone" id="phone" value="" required />
+                            <label for="phone" class="form-label">Your phone number</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="select-list">
+                                <select name="time" id="time" required>
+                                    <option value="">Time</option>
+                                    <option value="6pm">18:00 PM - 6:00 AM (Rave)</option>
+                                    <option value="7pm">6:00 AM - 18:00 PM (Hotel)</option>
+                                    <option value="7pm">All Inclusive (x2 Price)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="select-list">
+                                <select name="food" id="food" required>
+                                    <option value="">Bar</option>
+                                    <option value="seasonalfish">Null</option>
+                                    <option value="assortedmushrooms">All Inclusive (+49$)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-radio">
+                            <label class="label-radio"> Choose your plan</label>
+                            <div class="radio-item-list">
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="49" id="number_people_2" />
+                                    <label for="number_people_2">49$</label>
+                                </span>
+                                <span class="radio-item active">
+                                    <input type="radio" name="number_people" value="99" id="number_people_4" checked="checked" />
+                                    <label for="number_people_4">99$</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="149" id="number_people_6" />
+                                    <label for="number_people_6">149$</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="199" id="number_people_8" />
+                                    <label for="number_people_8">199$</label>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-submit">
+                            <input type="submit" value="Order now" class="submit" id="submit" name="submit" />
+                            <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../js/pay.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

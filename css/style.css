@@ -131,3 +131,15 @@ p.text-danger {
 .footer-add-right {
     text-align: right;
 }
+
+/*PAY*/
+
+.form-control {
+    background-color: #111;
+    color: #fff;
+    font-size: 22px;
+}
+
+label {
+    font-size: 22px;
+}
