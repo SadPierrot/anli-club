@@ -143,3 +143,55 @@ p.text-danger {
 label {
     font-size: 22px;
 }
+ 
+@media (min-width: 1px) and (max-width: 540px) {
+    h1#experience.text-bold {
+        font-size: 35px;
+    }
+
+    h1.text-danger {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+
+    p.text-white {
+        font-size: 18px;
+    }
+
+    div.col-12 {
+        margin-top: -7px;
+    }
+    h1.our-team {
+        margin-top: 20px;
+    }
+
+    h2.text-white {
+        font-size: 25px;
+    }
+
+    #register-now {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+
+    h1.text-danger {
+        font-size: 40px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+
+    p.text-white {
+        font-size: 18px;
+    }
+
+    div.col-12 {
+        margin-top: -7px;
+    }
+    h1.our-team {
+        margin-top: 20px;
+    }
+
+}
+
