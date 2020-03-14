@@ -34,40 +34,56 @@
                         <div class="form-group">
                             <div class="select-list">
                                 <select name="time" id="time" required>
-                                    <option value="">Time</option>
-                                    <option value="6pm">18:00 PM - 6:00 AM (Rave)</option>
-                                    <option value="7pm">6:00 AM - 18:00 PM (Hotel)</option>
-                                    <option value="7pm">All Inclusive (x2 Price)</option>
+                                    <option value="0pm">Time</option>
+                                    <option value="1pm">Monday</option>
+                                    <option value="2pm">Tuesday</option>
+                                    <option value="3pm">Wednesday</option>
+                                    <option value="4pm">Thursday</option>
+                                    <option value="5pm">Friday</option>
+                                    <option value="6pm">Saturday</option>
+                                    <option value="7pm">Sunday</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="select-list">
-                                <select name="food" id="food" required>
-                                    <option value="">Bar</option>
-                                    <option value="seasonalfish">Null</option>
-                                    <option value="assortedmushrooms">All Inclusive (+49$)</option>
-                                </select>
+                        <div class="form-radio" style="margin-bottom: 0px;">
+                            <label class="label-radio">Choose rave price</label>
+                            <div class="radio-item-list">
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="49" id="number_people_1" />
+                                    <label for="number_people_1">49$</label>
+                                </span>
+                                <span class="radio-item active">
+                                    <input type="radio" name="number_people" value="99" id="number_people_2" checked="checked" />
+                                    <label for="number_people_2">99$</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="149" id="number_people_3" />
+                                    <label for="number_people_3">149$</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="199" id="number_people_4" />
+                                    <label for="number_people_4">199$</label>
+                                </span>
                             </div>
                         </div>
                         <div class="form-radio">
-                            <label class="label-radio"> Choose your plan</label>
+                            <label class="label-radio">Choose hotel price</label>
                             <div class="radio-item-list">
                                 <span class="radio-item">
-                                    <input type="radio" name="number_people" value="49" id="number_people_2" />
-                                    <label for="number_people_2">49$</label>
+                                    <input type="radio" name="number_people" value="49" id="number_people_5" />
+                                    <label for="number_people_5">Null</label>
                                 </span>
                                 <span class="radio-item active">
-                                    <input type="radio" name="number_people" value="99" id="number_people_4" checked="checked" />
-                                    <label for="number_people_4">99$</label>
+                                    <input type="radio" name="number_people" value="99" id="number_people_6" checked="checked" />
+                                    <label for="number_people_6">49$</label>
                                 </span>
                                 <span class="radio-item">
-                                    <input type="radio" name="number_people" value="149" id="number_people_6" />
-                                    <label for="number_people_6">149$</label>
+                                    <input type="radio" name="number_people" value="149" id="number_people_7" />
+                                    <label for="number_people_7">99$</label>
                                 </span>
                                 <span class="radio-item">
                                     <input type="radio" name="number_people" value="199" id="number_people_8" />
-                                    <label for="number_people_8">199$</label>
+                                    <label for="number_people_8">149$</label>
                                 </span>
                             </div>
                         </div>

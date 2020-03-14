@@ -271,7 +271,7 @@ body {
   -ms-border-radius: 24px; }
   .active:after {
     position: absolute;
-    content: 'Person';
+    content: 'Couple';
     right: 17px;
     top: 50%;
     transform: translateY(-50%);
@@ -472,3 +472,8 @@ li.init {
   form {
     padding: 72px 40px 70px 40px; } }
 
+@media (max-width: 1200px) {
+  img.booking-img {
+    display: none;
+  }
+}

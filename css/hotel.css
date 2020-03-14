@@ -1,3 +1,12 @@
+a.nav-link {
+    color: #fff;
+}
+
+a:hover {
+    color: red;
+}
+
+
 html, 
 body, 
 .view {
@@ -144,6 +153,7 @@ p.hotel-adress {
     letter-spacing: 3px;
 }
 }
+
 
 
 
