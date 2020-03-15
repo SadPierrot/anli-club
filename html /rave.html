@@ -19,24 +19,69 @@
         <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark" style="width: 100%; position: fixed; z-index: 100;">
             <!-- Brand -->
             <a class="navbar-brand" href="#">
-                <img src="../img /logo.png" alt="">
+                <img class="logo" src="../img /logo.png" alt="">
             </a>
             <ul class="navbar-nav mr-auto">
 
               </ul>
             <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+                <button id="button-tickets" class="btn btn-outline-danger my-2 my-sm-0" type="submit">
                     <a class="text-danger" href="../html /pay.html">Buy tickets</a>
                 </button>
               </form>
           </nav>
 
-        <section class="section parallax-container context-dark" 
-        data-parallax-img="../img /bg.jpg" style="display: block; width: 100%;">
-           <div class="material-parallax parallax">
-                <img src="../img /bg.jpg" alt="" style="display: block; width: 100%;">
+
+<!--START CAROUSEL-->
+<section>
+    <div id="carousel-ex" class="carousel slide carousel-fade animated pulse" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <img src="" alt="">
+      <!-- * * * * * * * * * * * * * * * * 
+        FIRST SLIDER
+      * * * * * * * * * * * * * * * * * * *-->
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('../img /bg.jpg'); 
+                                   background-repeat: no-repeat; background-size: cover; ">
+          <div class="mask d-flex justify-content-center align-items-center" style="background: black; opacity: 0.6;">
+            <div id="hotel-content" class="text-center white-text mx-5 wow fadeIn">
+               <div class="col-12" >
+                    <div class="row">
+                        <div class="col-6">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <p>July 21-25, 2020</p>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <p>New York, NY</p> 
+                        </div>
+                    </div>
+               </div>
+               <div class="col-12">
+                   <img class="mt-4" src="https://livedemo00.template-help.com/wt_prod-13816/images/title.png" style="display: block; margin: 0 auto;">
+               </div>
+               <div class="col-12">
+                <button class="btn btn-lg btn-outline-danger mt-4">Order a ticket</button>
+                <button class="btn btn-lg btn-outline-danger mt-4">Order a room</button>
             </div>
-        </section>        
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <a href="#carousel-ex" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a href="#carousel-ex" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+<!--END CAROUSEL-->    
     </header>
     <main> 
         <section class="experince">
@@ -363,6 +408,8 @@
     <footer>
     </footer>
 
+    <!-- Connect fontsawasome-->
+    <script src="https://kit.fontawesome.com/052878b521.js" crossorigin="anonymous"></script>
 
     <script>
     Array.prototype.forEach.call(document.querySelectorAll('.pd-parallax'), function(elem) {
