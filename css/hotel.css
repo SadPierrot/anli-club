@@ -154,6 +154,64 @@ p.hotel-adress {
 }
 }
 
+section.services {
+    background: #353944;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
+h1.services {
+    letter-spacing: 5px;
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
 
+p.services {
+    font-size: 20px;
+}
 
+h1 {
+    font-weight: bold;
+}
+
+i#social{
+    color: red;
+}
+
+h1#testimonails.mt-4 {
+    color: black;
+    letter-spacing: 5px;
+}
+
+p.testimonails {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+@media (max-width: 450px) {
+    h1#testimonails.mt-4 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    p.testimonails {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    h3.mb-4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    h1.services {
+        font-size: 40px;
+    }
+    
+    h1.hotel {
+        font-size: 60px;
+    }
+
+    h1.mt-4 {
+        font-size: 40px;
+    }
+}
