@@ -1,5 +1,12 @@
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+}
 a.nav-link {
     color: #fff;
+}
+
+bg-dark {
+    color: #222222;
 }
 
 a:hover {
@@ -185,7 +192,7 @@ h1#testimonails.mt-4 {
 }
 
 p.testimonails {
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 10px;
 }
 
@@ -215,3 +222,41 @@ p.testimonails {
         font-size: 40px;
     }
 }
+
+#footer.container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.social-icon {
+    padding-top: 2%;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: #fff 3px solid;
+    background-color: #000;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+#icon {
+    padding: 20px;
+    color: white;
+}
+
+#icon:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    border: #fff 3px solid;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+

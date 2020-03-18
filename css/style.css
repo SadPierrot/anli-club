@@ -1,7 +1,6 @@
 body {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Baloo Chettan 2', cursive;
 }
-
 
 html, 
 body, 
@@ -255,9 +254,6 @@ label {
 @media (max-width: 400px) {
     img.mt-4 {
         width: 200px;
-    }
-    div.row {
-        margin-top: 60%;
     }
 }
 
