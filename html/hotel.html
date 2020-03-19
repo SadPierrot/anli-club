@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Hotel for AntiClub</title>
     <!--Connect fonts-->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -20,8 +19,17 @@
 </head>
 <body>
 
+<!--START PRELOADER-->
+<div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+<!--END PRELOADER-->
 
-    <!--START NAVBAR-->
+
+<!--START NAVBAR-->
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%; position: fixed; z-index: 100; background: #212121;">
@@ -64,8 +72,8 @@
             </nav>     
     </header>
 
-
 <!--START CAROUSEL-->
+
     <section>
       <div id="carousel-ex" class="carousel slide carousel-fade animated pulse" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -192,8 +200,8 @@
         </a>
       </div>
     </section>
-<!--END CAROUSEL-->
 
+<!--END CAROUSEL-->
 
     <section style="background: #FF4E4E;">
       <div id="slippers" class="container">
@@ -256,9 +264,6 @@
         </div>
       </div> 
     </section>
-
-
-
 
 <!--START CAROUSEL-->
     <section>
@@ -366,9 +371,8 @@
   </div>
 </section>
 
-
-
 <!--START CAROUSEL-->
+
 <section>
   <div id="carousel-exet" class="carousel slide carousel-fade animated pulse" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -379,19 +383,18 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <img src="" alt="">
+
     <!-- * * * * * * * * * * * * * * * * 
       FIRST SLIDER
     * * * * * * * * * * * * * * * * * * *-->
+
       <div class="carousel-item ">
         <div class="view" style="background-image: url('../img/pool.jpg');
                                  background-repeat: no-repeat; background-size: cover;">
         <div class="mask d-flex justify-content-center align-items-center" style="background: black; opacity: 0.7;">
           <div class="text-center white-text mx-5 wow fadeIn">
-  
             <i id="social" class="fa fa-tint fa-5x" aria-hidden="true"></i>
             <h1>POOL</h1>
-
-
           </div>
         </div>
         </div>
@@ -408,7 +411,6 @@
               <i id="social" class="fa fa-medkit fa-5x" aria-hidden="true"></i>
               <h1>HEALTH CLUB</h1>
 
-
             </div>
           </div>
           </div>
@@ -421,7 +423,6 @@
                                      background-repeat: no-repeat; background-size: cover;">
             <div class="mask d-flex justify-content-center align-items-center" style="background: black; opacity: 0.7;">
               <div class="text-center white-text mx-5 wow fadeIn">
-
                 <i id="social" class="fa fa-car fa-5x" aria-hidden="true"></i>
                 <h1>PARKING</h1>
               </div>
@@ -436,7 +437,6 @@
                                    background-repeat: no-repeat; background-size: cover;">
           <div class="mask d-flex justify-content-center align-items-center" style="background: black; opacity: 0.7;">
             <div class="text-center white-text mx-5 wow fadeIn">
-
               <i id="social" class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
               <h1>RESTAURANT</h1>
             </div>
@@ -451,8 +451,8 @@
     </a>
   </div>
 </section>
-<!--END CAROUSEL-->
 
+<!--END CAROUSEL-->
 
 <section>
   <div id="slippers" class="container">
@@ -490,7 +490,6 @@
   </div> 
 </section>
 
-
 <section class="bg-dark text-white">
   <div id="footer" class="container">
     <div class="top-name center-block text-center justify-content-center align-items-center">
@@ -524,7 +523,19 @@
 
 
   <script>
-    new WOW().init();
+    /* PRELOADER */
+
+  window.onload = function () {
+    document.body.classList.add('loaded');
+  }
+
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
   </script>
 
 

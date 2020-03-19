@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>  
+    <title>Rave for AntiClub</title>  
     <!--Connect Font -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -15,6 +15,16 @@
 
 </head>
 <body>
+    
+<!--START PRELOADER-->
+<div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <!--END PRELOADER-->
+
     <header>
         <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark" style="width: 100%; position: fixed; z-index: 100;">
             <!-- Brand -->
@@ -415,6 +425,21 @@
     Array.prototype.forEach.call(document.querySelectorAll('.pd-parallax'), function(elem) {
         elem.style.backgroundImage = 'url('+elem.getAttribute('data-parallax-image')+')';
     })
+
+    /* PRELOADER */
+
+    window.onload = function () {
+        document.body.classList.add('loaded');
+    }
+
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+    
     </script>
 </body>
 </html>

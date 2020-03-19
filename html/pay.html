@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form by Colorlib</title>
+    <title>Pay for AntiClub</title>
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="../fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="../css/pay.css">
 </head>
 <body>
+    
+<!--START PRELOADER-->
+<div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <!--END PRELOADER-->
 
     <div class="main">
         <div class="container">
@@ -100,6 +109,22 @@
     </div>
 
     <!-- JS -->
+    <script>
+        /* PRELOADER */
+    
+      window.onload = function () {
+        document.body.classList.add('loaded');
+      }
+    
+      window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+          document.body.classList.add('loaded');
+          document.body.classList.remove('loaded_hiding');
+        }, 500);
+      }
+</script>
+
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../js/pay.js"></script>
 </body>
